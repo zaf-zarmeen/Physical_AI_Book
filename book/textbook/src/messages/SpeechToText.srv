@@ -1,0 +1,10 @@
+# SpeechToText service definition for Physical AI & Humanoid Robotics Textbook
+
+# Request for speech-to-text conversion
+# No request parameters needed as audio is captured internally
+
+---
+# Response
+string text          # The recognized text
+bool success         # Whether the recognition was successful
+string error_message # Error details if success is false

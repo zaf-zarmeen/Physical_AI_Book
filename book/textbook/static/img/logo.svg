@@ -1,0 +1,16 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#2563eb" rx="5" />
+  
+  <!-- Robot icon (simplified) -->
+  <circle cx="15" cy="25" r="8" fill="#ffffff" />
+  <rect x="10" y="33" width="10" height="12" fill="#ffffff" rx="2" />
+  <line x1="7" y1="37" x2="23" y2="37" stroke="#ffffff" stroke-width="2" />
+  <line x1="15" y1="20" x2="15" y2="30" stroke="#ffffff" stroke-width="2" />
+  <line x1="10" y1="25" x2="20" y2="25" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Text -->
+  <text x="35" y="32" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">
+    Physical AI &amp; Robotics
+  </text>
+</svg>
