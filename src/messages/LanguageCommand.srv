@@ -1,0 +1,11 @@
+# LanguageCommand service definition for Physical AI & Humanoid Robotics Textbook
+
+# Request for processing a language command
+string command          # The natural language command to process
+
+---
+# Response
+bool success            # Whether the command was processed successfully
+string message          # Additional information or error message
+string action_sequence  # The planned sequence of actions (as JSON)
+string questions        # Any clarifying questions as JSON array

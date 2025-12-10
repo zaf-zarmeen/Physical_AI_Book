@@ -1,12 +1,12 @@
 {
   "builds": [
     {
-      "src": "book/textbook/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "book/textbook/build"
+        "distDir": "build"
       }
     }
   ],
-  "outputDirectory": "book/textbook/build"
+  "outputDirectory": "build"
 }

@@ -1,174 +1,20 @@
 # Dependencies
-node_modules/
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env*
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
 .DS_Store
-Thumbs.db
-
-# Docusaurus
-.build/
-dist/
-build/
-*.log
-coverage/
-.nyc_output/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-.installed.cfg
-*.egg-info/
-*.egg
-MANIFEST
-.pytest_cache/
-.hypothesis/
-.coverage
-.tox/
-.nox/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp/
-.pnp.js
-lib-cov
-res/features
-*.seed
-*.db
-*.db-journal
-pids
-*.pid
-*.seed
-*.pid.lock
-lib-peer/
-node/
-.snyk
-.npm
-node_modules/
-jspm_packages/
-web_modules/
-*.js.map
-*.mjs.map
-*.cjs.map
-*.tsbuildinfo
-.next/
-.nuxt/
-.vuepress/dist
-.client
-.static
-.svelte-kit/
-.svelte-kit/
-/.contentlayer
-.contentlayer/
-.output
-.vercel/
-.netlify
-.netlify/*
-.cache/
-.cached/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.vs/
-*.sublime-project
-*.sublime-workspace
-.history
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-*.lnk
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment
-.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Testing
-coverage/
-.nyc_output/
-.jest/
-.istanbul/
-test-results/
-tmp/
-temp/
-
-# Databases
-*.db
-*.db-journal
-
-# Runtime
-*.pid
-*.seed
-*.pid.lock
-
-# Compiled
-*.dll
-*.class
-*.o
-*.so
-*.pyc
-*.pyo
-*.exe
-*.out
-*.dll
-*.jar
-*.war
-*.tar.gz
-*.tar
-*.zip
-*.7z
-
-# Docker
-Dockerfile*
-.dockerignore
-*.log*
-
-# Build outputs
-dist/
-out/
-build/
-coverage/
-*.min.js
-*.min.css
-*.bundle.js
-
-# Secrets (Important to never commit these)
-*.secret.yaml
-secrets/
-*.key
-*.crt
-*.pem
-*.p12
-*.jks
-*.keystore
-config/keys/
-keys/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
