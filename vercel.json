@@ -8,11 +8,5 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/book/textbook/build/$1",
-      "status": 200
-    }
-  ]
+  "outputDirectory": "book/textbook/build"
 }
