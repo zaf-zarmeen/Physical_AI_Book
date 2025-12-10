@@ -1,11 +1,18 @@
 {
   "builds": [
     {
-      "src": "book/textbook/package.json",
+      "src": "book/textbook/**/*",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "book/textbook/build"
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "book/textbook/build/$1",
+      "status": 200
     }
   ]
 }
