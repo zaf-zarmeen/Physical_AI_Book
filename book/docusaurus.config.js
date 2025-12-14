@@ -23,7 +23,7 @@ const config = {
   url: 'https://uzm-org.github.io', // GitHub Pages URL for the textbook
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/test-book/',
+  baseUrl: '/test-book/book',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
